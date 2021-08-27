@@ -1,0 +1,23 @@
+:root { --mavi: #6bc2f1 }
+header { background: url('../img/headerbg.jpg') center/cover }
+header nav { background-color: rgba(255,255,255,.8) }
+
+.bg-mavi { background-color: var(--mavi)!important }
+.text-mavi { color: var(--mavi)!important }
+.vh-50 { height: 50vh }
+.bg-gray { background-color:#f1f1f1; }
+.bg-footer { background-color:#072135; }
+.txtfooter {color:#b5bdc3}
+
+#img1 { background: url('../img/img1.jpg') center/cover }
+#img2 { background: url('../img/img2.jpg') center/cover }
+#img1:hover, #img2:hover { opacity: .5 }
+#img1:hover p, #img2:hover p { visibility: visible!important}
+
+
+.carousel-indicators div {
+	width: 30px;
+	height: 30px;
+	border: 2px solid #fff;
+	border-radius: 50%;
+}
